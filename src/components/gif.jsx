@@ -1,0 +1,13 @@
+import React, { Component } from 'react';
+
+// with new verision => doesn't work the props
+class Gif extends Component {
+  render() {
+    const src = `https://media1.giphy.com/media/${this.props.id}/200.gif`;
+      return (
+        <img src={src} alt="" className="gif" />
+      );
+  }
+};
+
+export default Gif;
