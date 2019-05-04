@@ -16,10 +16,10 @@ import Gif from './gif';
 
 // Destructuring
 
-const GifList = ({ gifs, selectGif }) => {
+const GifList = (props) => {
   return (
     <div className="gif-list">
-      {gifs.map(gif => <Gif id={gif.id} key={gif.id} selectGif={selectGif} />)}
+      {props.gifs.map(gif => <Gif id={gif.id} key={gif.id} selectGif={props.selectGif} />)}
     </div>
   );
 };
