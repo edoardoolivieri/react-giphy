@@ -31,6 +31,8 @@
   height: 100vh;
 }
 
+
+
 .left-scene {
   flex: 0 0 60%;
   position: sticky;
@@ -92,5 +94,13 @@
   img{
     margin: 20px;
     // width: 40%;
+  }
+}
+
+.description-home{
+  margin: 0px 20px;
+  text-align: center;
+  h3{
+    font-size: 10px;
   }
 }
