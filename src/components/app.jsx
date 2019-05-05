@@ -43,7 +43,6 @@ render() {
   return (
     <div>
       <div className="left-scene">
-      <h1>Hello</h1>
         <SearchBar searchFunction={this.search} />
         <div className="selected-gif">
           <Gif id={this.state.selectedGifId} />
